@@ -25,14 +25,6 @@ p {
     text-align: end;
     display: none;
 }
-/* 
-#decisions {
-    
-} */
-/* 
-#go-on {
-    display: none;
-} */
 
 .dark {
     font-weight: 600;
@@ -41,14 +33,17 @@ p {
 #personality {
     border: 1px solid #232323;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
     display: flex;
     gap: 10px;
 }
 
 #moves {
-    border: 1px solid #232323;
+    margin-top: 10px;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
 }
 
 button {
@@ -72,5 +67,6 @@ button:active {
     padding: 20px;
     background-color: #1D3309;
     color: #FFFFFF;
+    border-radius: 0 0 5px 5px;
     box-shadow: -1.5px 1.5px 5px 1px #232323 inset;
 }
