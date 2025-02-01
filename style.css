@@ -48,7 +48,7 @@ p {
     border-radius: 10px;
 }
 
-button {
+.tbutton {
     background-color: #3F2A52;
     background-image: linear-gradient(#75619D, #3F2A52);
     border: 1px solid #75619D;
